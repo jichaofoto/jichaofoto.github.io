@@ -1,0 +1,113 @@
+body{
+    margin: 0px;
+    padding:0px;
+    font-family: PingFangSC-Regular, sans-serif;
+    color: #757575;
+    font-size: 1em;
+    letter-spacing: 3px;
+}
+.language{
+    position: fixed;
+    top: 4%;
+    right: 4%;
+ 
+    
+}
+.language div{
+    display: inline;
+}
+.e:hover{
+    cursor: pointer;
+    color: black;
+}
+.z:hover{
+    cursor: pointer;
+    color: black;
+}
+.active{
+    color: black;
+}
+.name{
+    font-size: 1.4em;
+}
+.con{
+    position: absolute;
+    bottom: 0em;
+    width: 100%;
+    height: 88%;
+}
+.left{
+    position:absolute;
+    left: 4%;
+    height: 100%;
+
+}
+.right{
+    position: absolute;
+    right: 0%;
+    height: 100%;
+    width: 80%;
+    top: 0px;
+    
+}
+.box{
+    height:100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    
+}
+
+.item{
+    
+    height: 100%;
+    width: auto;
+}
+.pinfo{
+    display: block;
+    width: 100px;
+    height: auto;
+    margin: 10px;
+    writing-mode: lr-tb;
+}
+.pinfo div{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.park{
+    position: relative;
+    top: 8%;
+   
+}
+.park:hover{
+    cursor: pointer;
+    color: black;
+}
+.object{
+    position: relative;
+    top: 9%;
+}
+.object:hover{
+    cursor: pointer;
+    color: black;
+}
+.cv{
+    position: relative;
+    top: 15%;
+}
+.cv:hover{
+    cursor: pointer;
+    color: black;
+}
+.it{
+    display: none;
+}
+.c{
+    position: relative;
+    top: 12%;
+    display: none;
+}
+.cc{
+    display:none;
+}
