@@ -1,7 +1,8 @@
 body{
     margin: 0px;
     padding:0px;
-    font-family: SimHei;
+    font-family: SimHei,Hiragino Sans GB ;
+    /* ,Hiragino Sans GB */
     color: #757575;
     font-size: 12px;
     line-height: 13px;
