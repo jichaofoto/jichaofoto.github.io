@@ -1,10 +1,11 @@
 body{
     margin: 0px;
     padding:0px;
-    font-family: PingFangSC-Regular, sans-serif;
+    font-family: SimHei;
     color: #757575;
-    font-size: 1em;
-    letter-spacing: 3px;
+    font-size: 12px;
+    line-height: 13px;
+  
 }
 .language{
     position: fixed;
@@ -28,7 +29,7 @@ body{
     color: black;
 }
 .name{
-    font-size: 1.4em;
+    font-size: 14px;
 }
 .con{
     position: absolute;
@@ -38,15 +39,14 @@ body{
 }
 .left{
     position:absolute;
-    left: 4%;
+    left: 80px;
     height: 100%;
 
 }
 .right{
     position: absolute;
-    right: 0%;
+    left: 300px;
     height: 100%;
-    width: 80%;
     top: 0px;
     
 }
@@ -56,6 +56,13 @@ body{
     flex-wrap: nowrap;
     flex-direction: row;
     
+}
+.box div{
+    position:relative;
+    margin: 30px;
+    width: 600px;
+    margin-top: 1.7%;
+  
 }
 
 .item{
@@ -77,7 +84,7 @@ body{
 }
 .park{
     position: relative;
-    top: 8%;
+    top: 4%;
    
 }
 .park:hover{
@@ -86,7 +93,7 @@ body{
 }
 .object{
     position: relative;
-    top: 9%;
+    top: 4.1%;
 }
 .object:hover{
     cursor: pointer;
@@ -94,20 +101,52 @@ body{
 }
 .cv{
     position: relative;
-    top: 15%;
+    top: 8.2%;
 }
 .cv:hover{
     cursor: pointer;
     color: black;
 }
 .it{
+    position: relative;
     display: none;
+    height: 100%;
+    left: 10px;
+}
+.flip div{
+    display: inline;
+}
+.prev:hover{
+    cursor: pointer;
+    color: black;
+}
+.next:hover{
+    cursor: pointer;
+    color: black;
+}
+.show{
+    width: auto;
+    height: 80%;
+    display: none;
+}
+.slide{
+    margin: 10%;
+    min-width: 500px;
+}
+.ac{
+    display: block;
 }
 .c{
     position: relative;
-    top: 12%;
     display: none;
+    left: 100px;
+    top: 6%;
+    min-width: 500px;
+  
+
 }
+
 .cc{
     display:none;
 }
+
