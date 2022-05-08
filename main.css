@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding:0px;
-    font-family: SimHei;
+    font-family: SimHei,Hiragino Sans GB ;
     color: #757575;
     font-size: 12px;
     line-height: 13px;
@@ -29,7 +29,8 @@ body{
     color: black;
 }
 .name{
-    font-size: 14px;
+    font-size: 16px;
+    font-family: "楷体","楷体_GB2312","KaiTi",'STKaiti';
 }
 .con{
     position: absolute;
@@ -92,6 +93,14 @@ body{
     cursor: pointer;
     color: black;
 }
+.forest{
+    position: relative;
+    top: 4.2%;
+}
+.forest:hover{
+    cursor: pointer;
+    color: black;
+}
 .object{
     position: relative;
     top: 4.1%;
@@ -109,13 +118,48 @@ body{
     color: black;
 }
 .it{
+
+    display:none;
+
+}
+.slide{
     position: relative;
-    display: none;
-    height: 100%;
-    left: 10px;
+    width: 80%;
+    min-width: 500px;
+    left: 30px;
+}
+.imgbox{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 23px;
+}
+.imgbox img{
+    width: 240px;
+    height: 160px;
+    margin: 7px;
+}
+.imgbox img:hover{
+    cursor: pointer;
+}
+.topic{
+    display:none;
+}
+.ttitle{
+    position: relative;
+    width: 80%;
+    min-width: 500px;
+    left: 30px;
+}
+.flip{
+    position:fixed;
+    z-index:200; 
+    width: 900px; 
+    left: calc(50% - 450px);
+    text-align: center;
+    top: 650px;
 }
 .flip div{
-    display: inline;
+    display: inline; 
 }
 .prev:hover{
     cursor: pointer;
@@ -125,17 +169,12 @@ body{
     cursor: pointer;
     color: black;
 }
-.show{
-    width: auto;
-    height: 80%;
+.return:hover{
+    cursor: pointer;
+    color: black;
+}
+.front{
     display: none;
-}
-.slide{
-    margin: 10%;
-    min-width: 500px;
-}
-.ac{
-    display: block;
 }
 .c{
     position: relative;
@@ -150,4 +189,24 @@ body{
 .cc{
     display:none;
 }
+.back{
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    opacity: 0.9;
+    z-index: 100;
+    
+}
+.frontimg{
+    position: fixed;
+    z-index: 101;
+    height: 600px;
+    width: 900px;
+    top: 45px;
+    left: calc(50% - 450px);
+}
+
 
