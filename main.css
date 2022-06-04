@@ -132,6 +132,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     margin: 23px;
+    min-width: 600px;
 }
 .imgbox img{
     width: 240px;
@@ -208,5 +209,25 @@ body{
     top: 10%;
     left: calc(50% - 450px);
 }
-
-
+.tuo{
+    position: relative;
+    top: 4.2%;
+}
+.tuo:hover{
+    cursor: pointer;
+    color: black;
+}
+.t{
+    display: none;
+}
+.tinfo{
+    position: relative;
+    width: 80%;
+    min-width: 500px;
+    left: 30px;
+}
+.timg img{
+    width: 190px;
+    height: 190px;
+    margin: 7px;
+}
