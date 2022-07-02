@@ -40,9 +40,9 @@ body{
 }
 .left{
     position:absolute;
-    left: 80px;
+    left: 70px;
     height: 100%;
-
+    width: 300px;
 }
 .right{
     position: absolute;
@@ -240,4 +240,12 @@ body{
 .link:hover{
     cursor: pointer;
     opacity: 1;
+}
+.contact{
+    position: absolute;
+    bottom: 25px;
+}
+.mail{
+    position: relative;
+    top: 4px;
 }
