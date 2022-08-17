@@ -10,7 +10,7 @@ body{
 .language{
     position: fixed;
     top: 4%;
-    right: 4%;
+    right: 3%;
  
     
 }
@@ -242,7 +242,7 @@ body{
     opacity: 1;
 }
 .contact{
-    position: absolute;
+    position: fixed;
     bottom: 50px;
 }
 .mail{
@@ -257,4 +257,21 @@ body{
     height: 18px;
     opacity: 0.4;
     margin-right: 10px;
+}
+.sea{
+    position: relative;
+    top: 4.2%;
+}
+.sea:hover{
+    cursor: pointer;
+    color: black;
+}
+.yellow{
+    display: none;
+}
+.yinfo{
+    position: relative;
+    width: 80%;
+    min-width: 500px;
+    left: 30px;
 }
